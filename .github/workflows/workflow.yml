@@ -20,7 +20,7 @@ jobs:
         python3.9 -m pip install -r requirements.txt
     - name: Print IP address
       run: |
-        ip -4 addr show eth0 
+        ifconfig
     - name: Build
       run: |
         python3.9 app.py
