@@ -21,8 +21,4 @@ jobs:
     - name: Build
       run: |
         python3.9 app.py
-    - name: Deploy
-      uses: JamesIves/github-pages-deploy-action@releases/v4
-      with:
-        branch: master
-        folder: static
+
